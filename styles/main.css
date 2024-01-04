@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 800px;
-    height: 500px;
+    min-height: 500px; /* Change height to min-height */
     overflow: hidden;
     border-radius: 6px;
     border: 1px solid rgba(68, 68, 68, 0.5);
