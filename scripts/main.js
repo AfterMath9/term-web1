@@ -269,20 +269,21 @@ async function getInputValue() {
         createText("I am a Software Engineering student, currently focused on <span class='blue'>Python</span>, <span class='blue'> Flutter</span>, and <span class='blue'>C++</span>.")
     } else if (value === "social -a" || value === "Social -a") {
         trueValue(value);
-        createText("<a href='https://twitter.com/amrmafalani' target='_blank'><i class='fab fa-twitter white'></i> Twitter</a>")
+        createText("<a href='https://twitter.com/amrmafalani' target='_blank'><i class='fab fa-twitter blue'></i> Twitter</a>")
+            // Telegram
+        createText("<a href='https://t.me/amr1sy' target='_blank'><i class='fab fa-telegram blue'></i> Telegram</a>")
+            // GitHub
+        createText("<a href='https://github.com/amr1sy' target='_blank'><i class='fab fa-github white'></i> GitHub</a>")
+            // LinkedIn
+        createText("<a href='https://linkedin.com/in/amrmafalani' target='_blank'><i class='fab fa-linkedin blue'></i> Linkedin</a>")
             // Instagram
-        createText("<a href='https://instagram.com/amrmafalani' target='_blank'><i class='fab fa-instagram white'></i> Instagram</a>")
+        createText("<a href='https://instagram.com/amrmafalani' target='_blank'><i class='fab fa-instagram purple'></i> Instagram</a>")
             // Snapchat
-        createText("<a href='https://t.snapchat.com/15ukP5ek' target='_blank'><i class='fab fa-snapchat white'></i> Snapchat</a>")
+        createText("<a href='https://t.snapchat.com/15ukP5ek' target='_blank'><i class='fab fa-snapchat yellow'></i> Snapchat</a>")
             // TikTok
         createText("<a href='https://tiktok.com/@amr1sy' target='_blank'><i class='fab fa-tiktok white'></i> Tiktok</a>")
-            // Telegram
-        createText("<a href='https://t.me/amr1sy' target='_blank'><i class='fab fa-telegram white'></i> Telegram</a>")
             // Facebook
-        createText("<a href='https://facebook.com/amr1sy' target='_blank'><i class='fab fa-facebook white'></i> Facebook</a>")
-            // LinkedIn
-        createText("<a href='https://linkedin.com/in/amrmafalani' target='_blank'><i class='fab fa-linkedin white'></i> Linkedin</a>")
-
+        createText("<a href='https://facebook.com/amr1sy' target='_blank'><i class='fab fa-facebook blue'></i> Facebook</a>")
     } else if (value === "social" || value === "Social") {
         trueValue(value);
         createText("Did you mean: <span class='blue'>social -a</span>?")
